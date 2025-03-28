@@ -1,12 +1,3 @@
-Below is an example **README.md** that outlines the steps to:
-
-1. Download the main HTML page using `wget`.
-2. Run the Python script that parses the main table, fetches detail pages, and produces the final CSV.
-
-You can adjust paths and descriptions as needed.
-
----
-
 # Obras por Impuestos Scraper
 
 This repository contains a Python script to:
@@ -15,6 +6,8 @@ This repository contains a Python script to:
 2. **Parse** the HTML to extract project UUIDs.
 3. **Fetch** each project’s detail page using `requests`.
 4. **Compile** all data into a final CSV with the exact format specified.
+
+Script was developed by [Obras por Impuestos Oxi Consultores](https://www.obrasximpuestos.com/)
 
 ## Requirements
 
