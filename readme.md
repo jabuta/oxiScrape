@@ -49,7 +49,7 @@ pip install requests beautifulsoup4 lxml pandas
    python final_script.py
    ```
 
-   - The script will parse `filename.html` to get the project UUIDs.
+   - The script will parse `projects_main.html` to get the project UUIDs.
    - It will automatically fetch each project’s detail page at:
      ```
      https://obrasporimpuestos.renovacionterritorio.gov.co/ObrasImpuestos/_DetalleProyecto?idProyecto=<UUID>
